@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atspėk skaičių!</string>
+    <string name="btn_about">Apie</string>
+    <string name="btn_results">Rezultatai</string>
+    <string name="btn_settings">Nustatymai</string>
+    <string name="btn_start">Žaisti</string>
+    <string name="btn_try_again">Bandyk dar kartą</string>
+    <string name="gameOver_greeting">Tu žvaigždė!</string>
+    <string name="gameOver_loose">Pralaimėjai! Bandyk dar kartą!</string>
+    <string name="gameOver_result">Paskutinis spėjimas buvo %d, bet teisingas %d</string>
+    <string name="gameOver_win">Tu laimėjai!</string>
+    <string name="main_text">Pabandyk!</string>
+    <string name="number_guessed">Spėtas skaičius buvo ...</string>
+    <string name="number_input">0</string>
+    <string name="number_range">Intervalas</string>
+    <string name="number_range_format">Spėk skaičių intervale nuo %d iki %d</string>
+    <string name="player_age_settings_i">10</string>
+    <string name="player_age_settings_l">Žaidėjo amžius:</string>
+    <string name="player_name_settings_i">Vardas</string>
+    <string name="player_name_settings_l">Žaidėjo vardas:</string>
+    <string name="result_content">%s: laimėjo%d/pralaimėjo %d.</string>
+    <string name="result_format">Spėtas skaičius buvo %d ir tai buvo per %s</string>
+    <string name="result_header">Tavo rezultatas:</string>
+    <string name="result_high_format">didelis</string>
+    <string name="result_low_format">mažas</string>
+    <string name="save_btn">Išsaugoti</string>
+    <string name="create_btn">Sukurti</string>
+    <string name="nickName">Žaidėjas %s</string>
+    <string name="sound_settings_l">Garsas</string>
+    <string name="submit_btn">Patvirtinti</string>
+    <string name="empty_Field">Tušti laukai</string>
+    <string name="text_about">Apie mane</string>
+    <string name="text_author">Giedrius Stankevičius IFF-7/3</string>
+    <string name="turns_format">Spėjimas %d iš %d</string>
+    <string name="game_level">Sudėtingumas:</string>
+    <string name="your_chance">Tu turi</string>
+    <string name="level_format">Sveikinimai, pasiektas %d lygis</string>
+    <string name="choose_player">Gali pasirinkti žaidėją arba sukurti naują!</string>
+    <string-array name="difficulty_values">
+        <item>Lengvas</item>
+        <item>Vidutinis</item>
+        <item>Sunkus</item>
+    </string-array>
+</resources>

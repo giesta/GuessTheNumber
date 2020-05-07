@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#9FFFEB3B"
+        tools:context=".GameActivity">
+
+        <TextView
+            android:id="@+id/range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/number_range"
+            android:textAlignment="center"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playerNickName"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <TextView
+            android:id="@+id/result_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/number_guessed"
+            android:textAlignment="center"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/range"
+            app:layout_constraintVertical_bias="0.11" />
+
+        <TextView
+            android:id="@+id/chance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/your_chance"
+            android:textAlignment="center"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result_t"
+            app:layout_constraintVertical_bias="0.114" />
+
+        <Button
+            android:id="@+id/guess_b"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonColor"
+            android:onClick="guessClick"
+            android:text="@string/submit_btn"
+            android:textColor="@color/TextColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guess_i"
+            app:layout_constraintVertical_bias="0.351" />
+
+    <EditText
+        android:id="@+id/guess_i"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        tools:targetApi="o"
+        android:hint="@string/number_input"
+        android:textColorHint="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chance"
+        app:layout_constraintVertical_bias="0.155"
+        android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/playerNickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="casual"
+            android:text="@string/nickName"
+            android:textColor="@color/TextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
